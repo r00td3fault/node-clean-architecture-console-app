@@ -1,5 +1,5 @@
 # node-ts-console-app
-Basic node NOC App with  TypeScript
+Basic node NOC App with  TypeScript, clean architecture and test
 
 
 Instrucciones para correr la aplicación
@@ -22,3 +22,7 @@ npm install -g dotenv-cli
 dotenv -e .env.enviroment -- npx prisma migrate dev
 ```
 8. Ejecutar ```npm run dev```
+9. Para realizar el test local despues de configuración del entorno ejecutar
+```
+npm run test:watch
+```
