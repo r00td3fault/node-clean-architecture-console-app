@@ -22,3 +22,7 @@ npm install -g dotenv-cli
 dotenv -e .env.enviroment -- npx prisma migrate dev
 ```
 8. Ejecutar ```npm run dev```
+9. Para realizar el test local despues de configuración del entorno ejecutar
+```
+npm run test:watch
+```
